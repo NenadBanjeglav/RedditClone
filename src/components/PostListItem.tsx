@@ -3,7 +3,7 @@ import { Image, Pressable, Text, View } from "react-native";
 
 import { formatDistanceToNowStrict } from "date-fns";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
-import { Post } from "../types";
+import { Post } from "../types/types";
 import { Link } from "expo-router";
 
 type PostListItemType = {

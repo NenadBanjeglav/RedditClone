@@ -1,7 +1,7 @@
 import { View, Text, Image, Pressable, FlatList } from "react-native";
 import { Entypo, Octicons, MaterialCommunityIcons } from "@expo/vector-icons";
 import { formatDistanceToNowStrict } from "date-fns";
-import { Comment } from "../types";
+import { Comment } from "../types/types";
 import { memo, useState } from "react";
 
 type CommentListItemProps = {

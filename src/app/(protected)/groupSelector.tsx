@@ -15,7 +15,7 @@ import { router } from "expo-router";
 import { useState } from "react";
 import { useSetAtom } from "jotai";
 import { selectedGroupAtom } from "../../atoms";
-import { Group } from "../../types";
+import { Group } from "../../types/types";
 
 export default function GroupSelector() {
   const [searchValue, setSearchValue] = useState<string>("");
